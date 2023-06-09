@@ -4,11 +4,30 @@
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
+```css
+{
+  "flex-center": {
+    "prefix": ["fc", "flex", "flexcenter"],
+    "body": "display: flex;\njustify-content: center;\nalign-items: center;",
+    "description": "flex-center"
+  },
+  "text-overflow": {
+    "prefix": ["textoverflow", "text", "to"],
+    "body": "overflow: hidden;\ntext-overflow: ellipsis;\nwhite-space: nowrap;",
+    "description": "flex-center"
+  },
+  "text-overflow-multiline": {
+    "prefix": ["textoverflow", "text", "tom"],
+    "body": "display: -webkit-box;\noverflow: hidden;\ntext-overflow: ellipsis;\n-webkit-line-clamp: 2;\n-webkit-box-orient: vertical;",
+    "description": "flex-center"
+  },
+  "hidden-scrollbar": {
+    "prefix": ["scrollbar", "hiddenscrollbar", "hs"],
+    "body": "-webkit-overflow-scrolling: touch;\n&::-webkit-scrollbar {\n  display: none;\n}",
+    "description": "flex-center"
+  }
+}
+```
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 

@@ -1,0 +1,17 @@
+{
+  "flex-center": {
+    "prefix": ["fc", "flex", "flexcenter"],
+    "body": "display: flex;\njustify-content: center;\nalign-items: center;",
+    "description": "flex-center"
+  },
+  "text-overflow": {
+    "prefix": ["textoverflow", "text", "to"],
+    "body": "overflow: hidden;\ntext-overflow: ellipsis;\nwhite-space: nowrap;",
+    "description": "flex-center"
+  },
+  "text-overflow-multiline": {
+    "prefix": ["textoverflow", "text", "to"],
+    "body": "display: -webkit-box;\noverflow: hidden;\ntext-overflow: ellipsis;\n-webkit-line-clamp: 2;\n-webkit-box-orient: vertical;\nword-wrap: break-word;\nword-break: break-all;",
+    "description": "flex-center"
+  }
+}

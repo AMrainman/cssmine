@@ -10,8 +10,13 @@
     "description": "flex-center"
   },
   "text-overflow-multiline": {
-    "prefix": ["textoverflow", "text", "to"],
-    "body": "display: -webkit-box;\noverflow: hidden;\ntext-overflow: ellipsis;\n-webkit-line-clamp: 2;\n-webkit-box-orient: vertical;\nword-wrap: break-word;\nword-break: break-all;",
+    "prefix": ["textoverflow", "text", "tom"],
+    "body": "display: -webkit-box;\noverflow: hidden;\ntext-overflow: ellipsis;\n-webkit-line-clamp: 2;\n-webkit-box-orient: vertical;",
+    "description": "flex-center"
+  },
+  "hidden-scrollbar": {
+    "prefix": ["scrollbar", "hiddenscrollbar", "hs"],
+    "body": "-webkit-overflow-scrolling: touch;\n&::-webkit-scrollbar {\n  display: none;\n}",
     "description": "flex-center"
   }
 }

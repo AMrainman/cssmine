@@ -7,16 +7,26 @@
   "text-overflow": {
     "prefix": ["textoverflow", "text", "to"],
     "body": "overflow: hidden;\ntext-overflow: ellipsis;\nwhite-space: nowrap;",
-    "description": "flex-center"
+    "description": "text-overflow"
   },
   "text-overflow-multiline": {
     "prefix": ["textoverflow", "text", "tom"],
     "body": "display: -webkit-box;\noverflow: hidden;\ntext-overflow: ellipsis;\n-webkit-line-clamp: 2;\n-webkit-box-orient: vertical;",
-    "description": "flex-center"
+    "description": "text-overflow-multiline"
   },
   "hidden-scrollbar": {
     "prefix": ["scrollbar", "hiddenscrollbar", "hs"],
     "body": "-webkit-overflow-scrolling: touch;\n&::-webkit-scrollbar {\n  display: none;\n}",
-    "description": "flex-center"
+    "description": "hidden-scrollbar"
+  },
+  "marginauto": {
+    "prefix": ["marginauto", "auto", "ma"],
+    "body": "margin: 0 auto;",
+    "description": "marginauto"
+  },
+  "positioncenter": {
+    "prefix": ["positioncenter", "absolutecenter"],
+    "body": "position: absolute;\ntop: 50%;\nleft: 50%;\ntransform: translate(-50%, -50%);",
+    "description": "positioncenter"
   }
 }
